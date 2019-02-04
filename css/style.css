@@ -1,0 +1,115 @@
+
+.btn_round {border-radius: 0%;}
+.main_header{margin-left: auto;}
+.main_buttons{margin-top: 5%; text-align: center ;}
+.main_buttons2{margin-top: 10px; text-align: center ;}
+.log_button{margin-left: auto;}
+.centre{margin-left: auto; margin-right: auto;}
+.succ{color: green;}
+.err{color: red;}
+.inp{margin-top: 10px;}
+.mar{margin-bottom: 0 !important; margin-top: 0;}
+.text-left{text-align: left!important;}
+.text-right{text-align: right!important;}
+.max-height{height: 100%}
+.h80{height: 75%}
+.h30{height: 30px}
+.pad{padding-top:50px;}
+.pad-left{padding-left:60px;}
+.pad-left-more{padding-left:100px;}
+.bottom{position: absolute; bottom: 0;left: 0;}
+.text-centre{text-align: center ;}
+.padper{width: 20%}
+.middle{margin: 0 auto;}
+
+
+html,body,.container { 
+height:100% !important;
+min-height: 100% !important;
+}
+
+.container {
+    width: 95%;
+	height: 95%;
+	max-width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: 0;
+}
+.box {
+	height: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+@media (max-width: 980px) {                  
+   .content-to-hide-big {
+      display: none;
+   }
+}
+@media (min-width: 981px) {                  
+   .content-to-hide-small {
+      display: none;
+   }
+}
+.carousel {
+    position: relative;
+}
+.bt-menu-control-sticky{z-index:999999;}
+.modal-backdrop {
+    z-index: 0 !important;
+	position: static;
+}
+img {
+    cursor: pointer;
+}
+p{
+overflow:auto;}
+a{color: black;}
+.profile-img{
+    text-align: center;
+}
+.profile-img img{
+	max-height: 300px;
+	max-width: 300px;
+    
+}
+.profile-img .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -10%;
+    width: 70%;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+	opacity: 0.7;
+}
+.profile-img .file input {
+	
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.imag{max-height: 70px}
+.but-pad{
+	padding-top: 0.42rem!important;
+    padding-right: 1.0rem!important;
+    padding-bottom: 0.42rem!important;
+    padding-left: 1.0rem!important;
+}
+.post-img{
+	height: 250px;
+	width: 250px;
+    
+}
+input#image{position:fixed;top:-100px;}

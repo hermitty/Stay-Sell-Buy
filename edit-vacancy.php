@@ -2,7 +2,6 @@
 session_start();
 require 'connect.php';
 
-//$_SESSION['to_edit'] = '168908dd3227b8358eababa07fcaf091'; ///to remove
 
 //UPDATE `website`.`vacancy` SET `title` = 'ddd', `category` = 'ss', `description` = 'fghddjk', `price` = 'ee', `contact` = 'fghjeek' WHERE (`idvacancy` = '23');
 require 'connect.php';

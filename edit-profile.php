@@ -1,11 +1,5 @@
 <?php
-//require 'header.php';
-//to do: 
-//close connection
-//connect
 session_start();
-//$_SESSION['to_edit'] = 'e744f91c29ec99f0e662c9177946c627'; ///to remove
-//UPDATE `website`.`user` SET `email` = 'sari@hotil.com', `firstname` = 'Sarh', `lastname` = 'Metin', `gender` = 'femle' WHERE (`iduser` = '7');
 
 require 'connect.php';
 $uhash = $_SESSION['to_edit'];

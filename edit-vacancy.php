@@ -1,7 +1,4 @@
 <?php
-//require 'header.php';
-//ctype_alpha($name);
-// to do: chane in sell if cond with select category
 session_start();
 require 'connect.php';
 

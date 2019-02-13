@@ -3,7 +3,6 @@ session_start();
 require 'connect.php';
 
 
-//UPDATE `website`.`vacancy` SET `title` = 'ddd', `category` = 'ss', `description` = 'fghddjk', `price` = 'ee', `contact` = 'fghjeek' WHERE (`idvacancy` = '23');
 require 'connect.php';
 $phash = $_SESSION['to_edit'];
 $sql_query = "SELECT * FROM website.vacancy where vacancy.hash = '$phash';";
